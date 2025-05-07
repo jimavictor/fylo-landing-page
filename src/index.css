@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-raleway: 'Raleway', 'sans-serif';
+  --font-opensans: "Open Sans", 'sans-serif';
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: dark;
+  font-size: 14px;
+}
+body {
+  background-color: #1c2230;
+  background-image: url(./assets/images/bg-curvy-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 80%;
+  font-family: "Open Sans", sans-serif;
+}
+input {
+  color-scheme: light;
+}
+.CTA:hover {
+  cursor: pointer;
+}
+
+.CTA:hover img {
+  filter: saturate(0%) contrast(100%) brightness(120%);
+}
+
+.CTA:hover a {
+  color: white;
+}
+
+.icon-wrapper:hover {
+  cursor: pointer;
+  color: #5fded6;
+}
+
+.icon-wrapper:hover .social-icons {
+  color: #5fded6;
+}
+
+
+
+@media (min-width: 640px) {
+  body {
+    background-image: url(./assets/images/bg-curvy-desktop.svg);
+  }
+}
