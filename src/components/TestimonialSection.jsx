@@ -19,10 +19,10 @@ function TestimonialSection() {
           </p>
           <div className="flex items-center">
             <img className="w-12 rounded-full pr-2" src={Profile1} alt="" />
-            <span>
+            <div>
               <h2 className="font-bold">Satish Patel</h2>
               <p>Founder & CEO, Huddle</p>
-            </span>
+            </div>
           </div>
         </div>
         <div className="max-w-100 rounded bg-[#21293C] p-4">
@@ -33,10 +33,10 @@ function TestimonialSection() {
           </p>
           <div className="flex items-center">
             <img className="w-12 rounded-full pr-2" src={Profile2} alt="" />
-            <span>
+            <div>
               <h2 className="font-bold">Bruce McKenzie</h2>
               <p>Founder & CEO, Huddle</p>
-            </span>
+            </div>
           </div>
         </div>
         <div className="max-w-100 rounded bg-[#21293C] p-4">
@@ -47,10 +47,10 @@ function TestimonialSection() {
           </p>
           <div className="flex items-center">
             <img className="w-12 rounded-full pr-2" src={Profile3} alt="" />
-            <span>
+            <div>
               <h2 className="font-bold">Iva Boyd</h2>
               <p>Founder & CEO, Huddle</p>
-            </span>
+            </div>
           </div>
         </div>
     </section>
