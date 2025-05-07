@@ -14,13 +14,12 @@ This is a fully responsive landing page for Fylo — a fictional file storage an
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/fylo-landing-page.git
+   git clone https://github.com/jimavictor/fylo-landing-page.git
    cd fylo-landing-page
    ```
 2. **Install dependencies**
    ```bash
-   git clone https://github.com/your-username/fylo-landing-page.git
-   cd fylo-landing-page
+  npm install
    ```
 3. **Start the development server**
    ```bash
