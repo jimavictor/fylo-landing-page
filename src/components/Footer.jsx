@@ -91,19 +91,19 @@ const Footer = () => {
 
         {/* social Icons */}
         <div className="flex w-full items-start justify-center space-x-3 md:w-fit">
-          <a
+          <a aria-label="Facebook"
             href="https://www.facebook.com/"
             className="icon-wrapper rounded-full border-1 p-2"
           >
             <FaFacebook className="social-icon" size={12} />
           </a>
-          <a
+          <a aria-label="X"
             href="https://www.x.com/"
             className="icon-wrapper rounded-full border-1 p-2"
           >
             <FaTwitter className="social-icon" size={12} />
           </a>
-          <a
+          <a aria-label="Instagram"
             href="https://www.instagram.com/"
             className="icon-wrapper rounded-full border-1 p-2"
           >
