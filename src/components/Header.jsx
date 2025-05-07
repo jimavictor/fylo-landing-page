@@ -6,7 +6,7 @@ function Header() {
       <a href="/">
         <img className="w-[74px]" src={logo} alt="My Logo" />
       </a>
-      <nav>
+      <nav aria-label="Primary navigation">
         <ul className="flex space-x-6">
           <li>
             <a className="hover:font-bold hover:underline" href="#">
